@@ -1,0 +1,5 @@
+streamlit
+pymongo
+google-genai
+PyPDF2
+numpy
