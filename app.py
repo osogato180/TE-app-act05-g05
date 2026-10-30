@@ -78,7 +78,7 @@ Pregunta: {pregunta}
 Responde de forma concisa y clara en español."""
 
     response = client_genai.models.generate_content(
-        model="gemini-3.8-flash",
+        model="gemini-2.5-flash",
         contents=prompt,
     )
     return response.text
